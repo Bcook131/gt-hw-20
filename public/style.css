@@ -1,0 +1,128 @@
+.navbar-brand {
+    background-color: rgb(84, 177, 146);
+    color: white !important;
+    padding: 1rem 1rem;
+    font-size: 34px;
+    font-family: serif;
+    margin: 0px;
+  }
+  
+  .navbar.navbar-expand-sm.navbar-light {
+    background-color: white;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .nav-link {
+    color: gray;
+  }
+  
+  body {
+      background-image: url('./Images/gtpfbg.jpg');
+      margin-bottom: 7rem;
+  }
+  
+  h2 {
+    color: rgb(84, 177, 146);
+    padding: 10px;
+    font-family: serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    border-top: .75rem solid rgb(84, 177, 146);
+    min-height: 5rem;
+    background-color: dimgray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cprt {
+    color: lightgray;
+    font-size: smaller;
+  
+  }
+  
+  .rounded.float-left{
+  padding-right: 15px;
+  padding-bottom: 15px;
+  }
+  
+  .navbar-nav>li{
+      border-right: 1px solid rgba(128, 128, 128, 0.3);
+  }
+  
+  .navbar-nav>li:last-child{
+      border: none;
+   }
+  
+   .row.border-bottom{
+       margin: 20px;
+   }
+  
+   .col-sm-8.border {
+       background-color: white;
+   }
+  
+   .row{
+      margin: 0px;
+  }
+  .row.items{
+    margin: .5rem;
+  }
+  
+  .btn.btn-default{
+    background-color: rgb(84, 177, 146);
+    color:white
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  .thumbnail.text-center{
+    position: relative;
+    height: 100%;
+  }
+  
+  .caption{
+    position: absolute;
+    top: 65%;
+    left:0;
+    width:100%;
+    background-color:rgb(84, 177, 146);
+    right: 0;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .caption.caption2{
+    top: 80%;
+    left:0;
+    width:100%;
+    background-color: dimgray;
+  }
+  .img-responsive{
+    width:100%;
+    height: 100%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  
+  }
+  
+   @media only screen and (max-width: 575px){
+       .navbar-nav>li{
+           border-right:0px
+       }
+   }

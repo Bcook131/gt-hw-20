@@ -1,19 +1,25 @@
 import React from "react";
+import Nav from "./components/Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Contact from "../src/views/contact";
-import Portfolio from "../src/views/portfolio";
-import Index from "../src/views/index";
-
+import About from "./views/About";
+import Portfolio from "./views/Portfolio";
+import Contact from "./views/Contact";
+import Footer from "../src/components/Footer"
+import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Route exact path="/nm-portfolio/" component={Index} />
-        <Route exact path="/nm-portfolio/contact" component={Contact} />
-        <Route exact path="/nm-portfolio/portfolio" component={Portfolio} />
-      </div>
-    </Router>
+    <div>
+      <Router>
+        <div>
+          <Nav />
+          <Route exact path="/bw-react-portfolio" component={About} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
+        </div>
+      </Router>
+      <Footer />
+    </div>
   );
 }
 
